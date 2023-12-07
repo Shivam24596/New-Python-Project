@@ -1,4 +1,4 @@
-# Group 13 - Python Project: Python Media Catalog
+# Group 13 - Python Group Project
 
 ## Project Description:
 
