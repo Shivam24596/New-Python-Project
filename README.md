@@ -59,10 +59,6 @@ Main Folder: New-Python-Project
         - data_table_fillin.html - HTML file for the Netflix data
 ```
 
-## Dependencies:
-
-List any dependencies your project relies on.
-
 ## Contributors:
 
 - Semini Sehara Amarasinghe
