@@ -14,9 +14,9 @@ IMDb (Internet Movie Database): A renowned online database showcasing ratings, r
 TMDB Popularity & Score: Additional insights for informed choices.
 TMDB (The Movie Database): A community-driven database offering information on movies and TV shows, enhancing your understanding of content appeal.
 
-# netflix.py:
-(python file) in which imports flask, pandas, sqlite3, pathlib.
-path = pathlib.Path().cwd()    --- 
+* netflix.py:(python file)
+       in which imports flask, pandas, sqlite3, pathlib.
+  path = pathlib.Path().cwd()    --- 
                       This code uses the pathlib module to obtain the current working directory (cwd) and assigns it to the 
                       variable path.
 
@@ -46,7 +46,7 @@ if __name__=="__main__":
                          filename and table name for handling Netflix dataset information.
 
 
-# Netflix_html.py:
+* Netflix_html.py:
 
 render_template -- ender_template is a function in web development frameworks like Flask that renders and returns an HTML 
                     template
@@ -55,28 +55,7 @@ netflix_html = Flask(__name__) ---
               This code initializes a Flask web application named netflix_html.
               The __name__ argument is used to determine the root path for the application.
 
-@netflix_html.route("/")
-def index():
-    return render_template("index.html")
-    
-@netflix_html.route("/about")
-def about():
-    return render_template("about.html")        
-    
-@netflix_html.route("/data")
-def data():
-    con = sqlite3.connect(File_path)
-    cursor = con.cursor()
-    Net_data = cursor.execute("SELECT * FROM Net_data").fetchall()
-    con.close()
-    return render_template("data_table_fillin.html", Net_data = Net_data) ---
 
-                    In this Flask application, three routes are defined: the index route is associated with the root path 
-                    ("/") and renders the "index.html" template when accessed. The about route is linked to the "/about" 
-                    path and renders the "about.html" template. The data route, associated with "/data," establishes a 
-                    connection to an SQLite database located at File_path. Finally, the "data_table_fillin.html" template is 
-                    rendered, passing the fetched Net_data as a parameter, and the resulting HTML content is sent as a 
-                    response when the "/data" route is accessed.
 
 
 if __name__=="__main__":
