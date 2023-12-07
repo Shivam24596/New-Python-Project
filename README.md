@@ -53,6 +53,7 @@ Main Folder: New-Python-Project
     - Netflix_dataset.csv
     - Netflix_file.ipynb
     - README.md
+    - requirements.txt
     - templates (subfolder)
         - index.html - HTML file for the index page
         - about.html - HTML file for the About page
