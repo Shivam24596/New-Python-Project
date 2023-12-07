@@ -3,16 +3,16 @@
 Dataset- Netflix Movies and TV Shows. 
 
 Netflix is one of the most popular media and video streaming platforms. They have over 8000 movies or tv shows available on their platform, as of mid-2021, they have over 200M Subscribers globally. This tabular dataset consists of listings of all the movies and tv shows available on Netflix, along with details such as - cast, directors, ratings, release year, duration, etc.
-
-ID (JustWatch): Unique identifiers for precision.
-Title: Names of your favorite shows and movies.
-Release Year: Journey through time with release year details.
-Age Certification: Tailored viewing experiences for all audiences.
-Runtime: Episode and movie length for binge-watching planning.
-IMDb Score & Votes: Audience opinions revealed.
-IMDb (Internet Movie Database): A renowned online database showcasing ratings, reviews, and information about movies, TV shows, and more.
-TMDB Popularity & Score: Additional insights for informed choices.
-TMDB (The Movie Database): A community-driven database offering information on movies and TV shows, enhancing your understanding of content appeal.
+/n
+ID (JustWatch): Unique identifiers for precision./n
+Title: Names of your favorite shows and movies./n
+Release Year: Journey through time with release year details./n
+Age Certification: Tailored viewing experiences for all audiences./n
+Runtime: Episode and movie length for binge-watching planning./n
+IMDb Score & Votes: Audience opinions revealed./n
+IMDb (Internet Movie Database): A renowned online database showcasing ratings, reviews, and information about movies, TV shows, and more./n
+TMDB Popularity & Score: Additional insights for informed choices./n
+TMDB (The Movie Database): A community-driven database offering information on movies and TV shows, enhancing your understanding of content appeal./n
 
 # netflix.py:
 (python file) in which imports flask, pandas, sqlite3, pathlib.
