@@ -4,10 +4,12 @@
 
 This project focuses on storing Netflix data in a database and serving that data via a website. By executing the `Netflix_App.py` script, users can access the website to explore and interact with the Netflix dataset.
 
-## Usage Guidelines:
 
-1. Execute `Netflix_App.py` to obtain the website link.
-2. Open the provided link to access the index page of the website.
+## Usage Guidelines:
+1. Install dependencies: `pip pip install -r requirements.txt`
+2. Run the database builder: `python Build_Netflix_Database.py`
+3. Execute `Netflix_App.py` to obtain the website link.
+4. Open the provided link to access the index page of the website.
 
 ## Code Samples:
 
